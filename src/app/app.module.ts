@@ -9,6 +9,7 @@ import { ViewEmpComponent } from './view-emp/view-emp.component';
 import { EditEmpComponent } from './edit-emp/edit-emp.component';
 import { DeleteEmpComponent } from './delete-emp/delete-emp.component';
 import { RouterModule, Routes } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
 const myRoute:Routes=[
 {
   path:"",
@@ -39,7 +40,8 @@ const myRoute:Routes=[
     SearchEmpComponent,
     ViewEmpComponent,
     EditEmpComponent,
-    DeleteEmpComponent
+    DeleteEmpComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
