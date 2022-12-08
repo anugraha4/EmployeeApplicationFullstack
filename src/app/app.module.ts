@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AddEmpComponent } from './add-emp/add-emp.component';
 import { SearchEmpComponent } from './search-emp/search-emp.component';
 import { ViewEmpComponent } from './view-emp/view-emp.component';
+import { EditEmpComponent } from './edit-emp/edit-emp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddEmpComponent,
     SearchEmpComponent,
-    ViewEmpComponent
+    ViewEmpComponent,
+    EditEmpComponent
   ],
   imports: [
     BrowserModule,
