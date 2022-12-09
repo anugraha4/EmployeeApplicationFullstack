@@ -14,13 +14,13 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
+                  <tr *ngFor="let i of data">
+                    <th scope="row">{{i.empcd}}</th>
+                    <td>{{i.empname}}</td>
+                    <td>{{i.designation}}</td>
+                    <td>{{i.salary}}</td>
+                    <td>{{i.cmpname}}</td>
+                    <td>{{i.mobno}}</td>
                     
                   </tr>
                   
