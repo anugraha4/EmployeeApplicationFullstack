@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./delete-emp.component.css']
 })
 export class DeleteEmpComponent {
+  empcd=""
 
+  delete=()=>
+  {
+    let del:any={"empcd":this.empcd}
+  console.log(del)
+  }
 }
