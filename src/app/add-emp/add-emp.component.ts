@@ -42,7 +42,7 @@ export class AddEmpComponent {
           this.empname=""
           this.designation=""
           this.salary=""
-          this.empname=""
+          this.cmpname=""
           this.mobno=""
           this.username=""
           this.password=""
