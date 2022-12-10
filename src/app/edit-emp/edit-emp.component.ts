@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./edit-emp.component.css']
 })
 export class EditEmpComponent {
+  empcd=""
 
+  edit=()=>
+  {
+    let edi:any={"empcd":this.empcd}
+    console.log(edi);
+  }
 }
