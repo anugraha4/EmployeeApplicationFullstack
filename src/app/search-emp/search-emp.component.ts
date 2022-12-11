@@ -28,4 +28,23 @@ searchData:any=[]
       }
     )
   }
+  deletebtnclick=(id:any)=>
+  {
+    let data:any={
+      "id" :id
+  }
+  this.api.deleteEmployee(data).subscribe(
+    (generated:any)=>{
+      console.log(generated)
+      if (generated.status=="success") {
+        alert("successfully deleted")
+        
+      } else {
+        this.searchData=[]
+        
+      }
+    }
+  )
+
+  }
 }
